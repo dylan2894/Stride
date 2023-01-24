@@ -1,0 +1,63 @@
+#Img_3 {
+  height: 50px;
+}
+#homerun_button {
+  position: fixed;
+  bottom:25px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.btn .btn-primary .btn-lg {
+  height:45px !important;
+  width:50% !important;
+  display:block;
+}
+
+img {
+  width:90%;
+  margin: 10px;
+} 
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100px;
+  width: 100px;
+}
+
+#heading {
+  position: relative;
+  top: 0;
+
+  height: 100px;
+  width: 40vw;
+
+  left: 30vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#background {
+  z-index: -999999;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../Background.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+
+body, html {
+  height:100%;
+}
